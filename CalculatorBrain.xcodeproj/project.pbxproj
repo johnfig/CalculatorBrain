@@ -21,6 +21,7 @@
 		5C9FE385180CF7B4006E0DCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9FE367180CF7B3006E0DCA /* UIKit.framework */; };
 		5C9FE38D180CF7B4006E0DCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C9FE38B180CF7B4006E0DCA /* InfoPlist.strings */; };
 		5C9FE38F180CF7B4006E0DCA /* CalculatorBrainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9FE38E180CF7B4006E0DCA /* CalculatorBrainTests.m */; };
+		5C9FE39A180D11EB006E0DCA /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9FE399180D11EB006E0DCA /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5C9FE38A180CF7B4006E0DCA /* CalculatorBrainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorBrainTests-Info.plist"; sourceTree = "<group>"; };
 		5C9FE38C180CF7B4006E0DCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C9FE38E180CF7B4006E0DCA /* CalculatorBrainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrainTests.m; sourceTree = "<group>"; };
+		5C9FE398180D11EB006E0DCA /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		5C9FE399180D11EB006E0DCA /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				5C9FE372180CF7B3006E0DCA /* CalculatorBrainAppDelegate.h */,
 				5C9FE373180CF7B4006E0DCA /* CalculatorBrainAppDelegate.m */,
 				5C9FE375180CF7B4006E0DCA /* Main.storyboard */,
+				5C9FE398180D11EB006E0DCA /* CalculatorBrain.h */,
+				5C9FE399180D11EB006E0DCA /* CalculatorBrain.m */,
 				5C9FE378180CF7B4006E0DCA /* CalculatorBrainViewController.h */,
 				5C9FE379180CF7B4006E0DCA /* CalculatorBrainViewController.m */,
 				5C9FE37B180CF7B4006E0DCA /* Images.xcassets */,
@@ -252,6 +257,7 @@
 			files = (
 				5C9FE370180CF7B3006E0DCA /* main.m in Sources */,
 				5C9FE374180CF7B4006E0DCA /* CalculatorBrainAppDelegate.m in Sources */,
+				5C9FE39A180D11EB006E0DCA /* CalculatorBrain.m in Sources */,
 				5C9FE37A180CF7B4006E0DCA /* CalculatorBrainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +467,7 @@
 				5C9FE394180CF7B4006E0DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C9FE395180CF7B4006E0DCA /* Build configuration list for PBXNativeTarget "CalculatorBrainTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				5C9FE397180CF7B4006E0DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
