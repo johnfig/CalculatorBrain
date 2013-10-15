@@ -31,6 +31,11 @@
     }
 }
 
+- (IBAction)clearDisplayValueToZero:(id)sender {
+    NSString *digit = @"0";
+    [display setText:digit];
+}
+
 - (IBAction)operationPressed:(UIButton *)sender {
     if (userIsInTheMiddleOfTypingANumber) {
         [[self brain] setOperand:[[display text] doubleValue]];

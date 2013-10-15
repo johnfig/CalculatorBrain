@@ -17,5 +17,6 @@
 
 - (IBAction)digitPressed:(id)sender;
 - (IBAction)operationPressed:(id)sender;
+- (IBAction)clearDisplayValueToZero:(id)sender;
 
 @end
